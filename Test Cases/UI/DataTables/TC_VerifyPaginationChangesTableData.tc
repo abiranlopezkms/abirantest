@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_VerifyPaginationChangesTableData</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bda96e99-f667-4c0f-98ae-4932aee0fbf1</testCaseGuid>
+</TestCaseEntity>
