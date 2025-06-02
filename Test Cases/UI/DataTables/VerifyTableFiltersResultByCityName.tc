@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyTableFiltersResultByCityName</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35a658c1-2a10-4e83-a666-ac93b53c9a53</testCaseGuid>
+</TestCaseEntity>
