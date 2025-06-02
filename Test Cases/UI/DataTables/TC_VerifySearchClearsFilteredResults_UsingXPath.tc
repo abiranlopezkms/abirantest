@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_VerifySearchClearsFilteredResults_UsingXPath</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d60b592-5e58-4185-8164-42968d1fbbe0</testCaseGuid>
+</TestCaseEntity>
