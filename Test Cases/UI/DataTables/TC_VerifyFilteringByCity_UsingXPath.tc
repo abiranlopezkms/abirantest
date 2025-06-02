@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_VerifyFilteringByCity_UsingXPath</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>697e3eaf-6bab-46df-b4e7-ca8f5bc82a91</testCaseGuid>
+</TestCaseEntity>
