@@ -2,11 +2,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://datatables.net/examples/data_sources/ajax')
-WebUI.waitForPageLoad(10)
-WebUI.delay(2) // Wait for data to load
-
 // Step 1: Locate the search input using XPath
 TestObject searchInputXPath = new TestObject('search_input_xpath')
 searchInputXPath.addProperty('xpath', ConditionType.EQUALS, '//div[@class="demo-html"]//input[@type="search"]')
@@ -34,7 +29,4 @@ allVisibleRows.addProperty('xpath', ConditionType.EQUALS, '//table[@id="example"
 int allRows = WebUI.findWebElements(allVisibleRows, 5).size()
 WebUI.comment("Rows after clearing filter: $allRows")
 assert allRows > tokyoCount : "Table did not reset properly after clearing filter" // this step fails because loading all the rows are not working properly
-
-WebUI.closeBrowser()
-
 

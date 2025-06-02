@@ -22,29 +22,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
 
-// Step 1: Open browser
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://datatables.net/examples/data_sources/ajax.html')
-
-// Optional: wait for table to load
-WebUI.waitForPageLoad(10)
-WebUI.delay(2) // Let Ajax data load
-
-// Step 2: Locate search input with CSS
+// Step 1: Locate search input with CSS
 TestObject searchInputCSS = new TestObject('search_input_css')
 searchInputCSS.addProperty('css', ConditionType.EQUALS, 'div.demo-html input[type="search"]')
 
-// Step 3: Enter search text (e.g., London)
+// Step 2: Enter search text (e.g., London)
 WebUI.setText(searchInputCSS, 'London')
 
-// Step 4: Wait and verify text appears in the table
+// Step 3: Wait and verify text appears in the table
 WebUI.delay(2)
 TestObject tableCell = new TestObject('table_cell_london')
 tableCell.addProperty('xpath', ConditionType.CONTAINS, '//table//td[text()="London"]')
 
 WebUI.verifyElementPresent(tableCell, 5)
-
-// Step 5: Close browser
-WebUI.closeBrowser()
 
 
