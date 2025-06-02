@@ -33,7 +33,7 @@ allVisibleRows.addProperty('xpath', ConditionType.EQUALS, '//table[@id="example"
 
 int allRows = WebUI.findWebElements(allVisibleRows, 5).size()
 WebUI.comment("Rows after clearing filter: $allRows")
-assert allRows > tokyoCount : "Table did not reset properly after clearing filter"
+assert allRows > tokyoCount : "Table did not reset properly after clearing filter" // this step fails because loading all the rows are not working properly
 
 WebUI.closeBrowser()
 
