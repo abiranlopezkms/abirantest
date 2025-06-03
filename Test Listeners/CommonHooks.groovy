@@ -24,7 +24,8 @@ class CommonHooks {
 
     private boolean shouldSkip(TestCaseContext ctx) {
         def excluded = [
-            'Test Cases/OCR/TC_ValidateTex_SamplePdf1',
+            'Test Cases/OCR/TC_ValidateText_SamplePdf1',
+			'Test Cases/OCR/TC_ValidateText_SamplePdf2',
 			'Test Cases/Data/OpenExcel',
 			'Test Cases/Data/OpenJson',
 			'Test Cases/Data/OpenCsv'
