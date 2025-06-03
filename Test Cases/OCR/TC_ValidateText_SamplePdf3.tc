@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ValidateText_SamplePdf3</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ebe24c5-7b9d-47de-b1f6-1cc160978685</testCaseGuid>
+</TestCaseEntity>
